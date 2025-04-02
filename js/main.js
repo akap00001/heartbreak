@@ -78,6 +78,8 @@ function clear() {
   document.querySelector("#requirement").classList.remove("fadeIn");
 }
 
+//taget fra animated-info-boxes branch
+
 function headInfo() {
   console.log("headInfo");
 

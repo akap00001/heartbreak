@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="css/infographic.css" />
     <link rel="stylesheet" href="css/forms.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
-    <title>Emergency Site</title>
+    <title>Del din Story!</title>
   </head>
   <body id="register">
     <header>
       <nav>
         <div id="logotype-wrapper">
-          <a href="index.html"> HEARTBREAK HOTLINE </a>
+          <a href="index.html"> HEARTBREAK HOTLINE💔🚨 </a>
         </div>
         <ul class="menu">
           <li>
@@ -30,18 +30,94 @@
     </header>
 
     <main>
-      <h1>INDBERET</h1>
+      <h1>DEL DIN STORY!</h1>
       <section id="form-section">
         <article id="form-info">
-          <h2>Skriv det ud. Del din historie.</h2>
-          <p>Nogle gange er første skridt mod healing at sætte ord på kaosset. Vi lytter – uden dom, uden afbrydelser. Bare et sted, hvor du kan give slip.</p>
+          <h2>📌Skriv det ud.</h2>
+          <p>Nogle gange er første skridt mod healing at sætte ord på kaosset. Vi lytter – uden dom, uden afbrydelser. Bare et sted, hvor du kan give slip. Del ud af din historie med andre, eller bare for egen skyld!</p>
         </article>
-        <form id="webform"></form>
+        <form id="webform">
+          <fieldset id="contact">
+            <div class="form-group">
+              <h3>Navn</h3>
+              <input id="name" aria-describedby="alias" type="text" required />
+              <p id="fyi">📍Skriv dit navn, alias eller vær anonym</p>
+            </div>
+
+            <div class="form-group">
+              <h3>Din mail</h3>
+              <p id="fyi">(Hvis du vil have en opfølgende besked eller råd fra os)</p>
+              <label for="email">📧</label>
+              <input id="email" name="email" type="email" />
+            </div>
+          </fieldset>
+
+          <fieldset id="story">
+            <div class="form-group">
+              <h3>Hvordan føles dit heartbreak lige nu?</h3>
+              <p id="fyi">(vælg flere)</p>
+              <label for="føles"><input type="checkbox" name="føler" value="chok" /> Jeg er stadig i chok 😱</label>
+              <br />
+              <label for="føles"><input type="checkbox" name="føler" value="gråd" /> Jeg kan ikke stoppe med at græde 💦</label>
+              <br />
+              <label for="føles"><input type="checkbox" name="føler" value="stalk" /> Jeg stalker dem (for meget) 🕵️‍♀️</label>
+              <br />
+              <label for="føles"><input type="checkbox" name="føler" value="skrive" /> Jeg overvejer at skrive til dem… 📲</label>
+              <br />
+              <label for="føles"><input type="checkbox" name="føler" value="strong" /> Jeg føler mig stærkere nu 💪</label>
+              <br />
+              <br />
+              <label for="andet">Andet:<input type="text" name="føler" /> </label>
+              <br />
+            </div>
+
+            <div class="form-group">
+              <h3>Hvad har du allermest brug for lige nu?</h3>
+              <p id="fyi">(vælg én)</p>
+              <label for="brug"><input type="radio" name="føler" value="chok" /> Trøst og forståelse 💜</label>
+              <br />
+              <label for="brug"><input type="radio" name="føler" value="gråd" /> Et reality check – hvad gør jeg nu?⚠️</label>
+              <br />
+              <label for="brug"><input type="radio" name="føler" value="stalk" /> En pep-talk, der får mig tilbage på toppen 🔥</label>
+              <br />
+              <label for="brug"><input type="radio" name="føler" value="skrive" /> Bare at få det ud uden råd eller svar 😌</label>
+              <br />
+            </div>
+
+            <div class="form-group">
+              <h3>Beskriv din historie</h3>
+              <label for="beskriv">Få det hele ud nu!</label><label for="dato"><input type="date" /></label>
+              <br />
+              <textarea name="beskriv" id="beskriv" required></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset id="share">
+            <div class="form-group">
+              <h3>Skal vi dele din historie anonymt på vores side?</h3>
+              <p>Nogle gange hjælper det andre at vide, de ikke er alene.</p>
+
+              <label for="radio"><input type="radio" name="føler" value="Ja" /> Ja, del den gerne📢</label>
+              <br />
+              <label for="radio"><input type="radio" name="føler" value="nej" /> Nej, det er kun for mig</label>
+              <br />
+            </div>
+          </fieldset>
+
+          <button id="submit" type="submit">Send din story 💔</button>
+        </form>
       </section>
+
       <section id="form-summary">
-        <h2>Summary</h2>
+        <h2>Vi Lytter 💔</h2>
         <article>
-          <p class="placeholder">Opsummering</p>
+          <p class="placeholder">
+            Hos Heartbreak Hotline er vi her for at lytte, støtte og hjælpe dig gennem svære tider. Vi ved, at livet kan være udfordrende, og at det nogle gange er svært at finde nogen at tale med. Derfor har vi skabt en nem og anonym webformular,
+            hvor du kan dele dine tanker og følelser i dit eget tempo. Uanset om du oplever hjertesorg, problemer i relationer eller blot har brug for nogen at tale med, er vi her for at høre dig. Vores webformular er designet til at give dig plads
+            til at udtrykke dig uden forstyrrelser. Du kan skrive alt, hvad der fylder, og vi lover at lytte uden at dømme. Når du udfylder formularen, kan du være sikker på, at dine ord bliver behandlet med respekt og forståelse. Det er første
+            skridt mod at få hjælp – og vi er klar til at være din støtte. Vi ved, at det kan være svært at tage det første skridt og åbne op. Men vi ønsker at skabe et rum, hvor du føler dig tryg ved at dele det, der ligger på dit hjerte. Husk, at
+            vi er her for dig, og du er ikke alene.
+          </p>
         </article>
       </section>
     </main>
