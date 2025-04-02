@@ -16,13 +16,13 @@
   --danger-color: #dc3545;
 
   /* Borders */
-  --border-color: #007bff; /* used */
+  --border-color: #f0f2a0; /* used */
   --border-color-light: #f7f5c2; /* used */
-  --border-radius: 0.25rem;
+  --border-radius: .5rem;
 
   /* Links */
   --link-color: #84888e; /* used */
-  --hover-color: #f9fcfe; /* used */
+  --hover-color: #f0f2a0; /* used */
   --active-color: #f52727; /* used */
 
   /* From styletile */
@@ -51,7 +51,7 @@
   --bodytext-color-inverted: #f9fcfe;
   --cta-text-color: #fefeff;
   --cta-text-color-inverted: #bbc3ca;
-  --followup-text-color: #575c61;
+  --followup-text-color: #9EA681;
   --followup-text-color-inverted: #bbc3ca;
   --formfield-text-color: #575c61;
   --form-submit-color: #bbc3ca;
@@ -59,7 +59,7 @@
 
   /* Background colors */
   --logotype-background-color: #d989b5;
-  --header-background-color: #fff7ee;
+  --header-background-color: #ae8fd9;
   --article-background-color: #f2bbd9;
   --news-background-color: #dbdde3;
   --news-background-color-inverted: #fff7ee;
@@ -71,7 +71,7 @@
   --bodytext-bg-color-inverted: #dbdde3;
   --cta-text-bg-color: #dbdde3;
   --cta-text-bg-color-inverted: #dbdde3;
-  --followup-text-bg-color: #d0dcdd;
+  --followup-text-bg-color: #fff7ee;
   --followup-text-bg-color-inverted: #dbdde3;
   --form-background-color: #c5c7ce;
   --form-text-color: #dbdde3;
@@ -83,4 +83,5 @@
   /* Info-boxes */
   --info-bg-color-yellow: #feffed;
   --info-bg-color-green: #eccba2;
+
 }
