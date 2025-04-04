@@ -18,7 +18,7 @@
   /* Borders */
   --border-color: #f0f2a0; /* used */
   --border-color-light: #f7f5c2; /* used */
-  --border-radius: .5rem;
+  --border-radius: 1rem;
 
   /* Links */
   --link-color: #84888e; /* used */
@@ -62,7 +62,7 @@
   --header-background-color: #ae8fd9;
   --article-background-color: #f2bbd9;
   --news-background-color: #dbdde3;
-  --news-background-color-inverted: #fff7ee;
+  --news-background-color-inverted: #D0DCDD;
   --info-background-color: #f2bbd9;
   --headline-bg-color: #0d39bd;
   --headline-bg-color-alert: #acd7f2;
