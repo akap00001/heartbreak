@@ -39,13 +39,13 @@
         <form id="webform">
           <fieldset id="contact">
             <div class="form-group">
-              <h3>Navn</h3>
+              <h4>Navn</h4>
               <input id="name" aria-describedby="alias" type="text" required />
               <p id="fyi">📍Skriv dit navn, alias eller vær anonym</p>
             </div>
 
             <div class="form-group">
-              <h3>Din mail</h3>
+              <h4>Din mail</h4>
               <p id="fyi">(Hvis du vil have en opfølgende besked eller råd fra os)</p>
               <label for="email">📧</label>
               <input id="email" name="email" type="email" />
@@ -54,8 +54,8 @@
 
           <fieldset id="story">
             <div class="form-group">
-              <h3>Hvordan føles dit heartbreak lige nu?</h3>
-              <p id="fyi">(vælg flere)</p>
+              <h4>Hvordan føles dit heartbreak lige nu?</h4>
+              <p id="fyi">(vælg gerne flere)</p>
               <label for="føles"><input type="checkbox" name="føler" value="chok" /> Jeg er stadig i chok 😱</label>
               <br />
               <label for="føles"><input type="checkbox" name="føler" value="gråd" /> Jeg kan ikke stoppe med at græde 💦</label>
@@ -72,7 +72,7 @@
             </div>
 
             <div class="form-group">
-              <h3>Hvad har du allermest brug for lige nu?</h3>
+              <h4>Hvad har du allermest brug for lige nu?</h4>
               <p id="fyi">(vælg én)</p>
               <label for="brug"><input type="radio" name="føler" value="chok" /> Trøst og forståelse 💜</label>
               <br />
@@ -85,16 +85,16 @@
             </div>
 
             <div class="form-group">
-              <h3>Beskriv din historie</h3>
-              <label for="beskriv">Få det hele ud nu!</label><label for="dato"><input type="date" /></label>
+              <h4>Beskriv din historie</h4>
+              <label for="beskriv">Få det hele ud nu!</label><label for="dato"> <input type="date" id="date" /></label>
               <br />
-              <textarea name="beskriv" id="beskriv" required></textarea>
+              <textarea name="beskriv" id="beskriv-text" required></textarea>
             </div>
           </fieldset>
 
           <fieldset id="share">
             <div class="form-group">
-              <h3>Skal vi dele din historie anonymt på vores side?</h3>
+              <h4>Skal vi dele din historie anonymt på vores side?</h4>
               <p>Nogle gange hjælper det andre at vide, de ikke er alene.</p>
 
               <label for="radio"><input type="radio" name="føler" value="Ja" /> Ja, del den gerne📢</label>
@@ -104,20 +104,19 @@
             </div>
           </fieldset>
 
-          <button id="submit" type="submit">Send din story 💔</button>
+          <div id="sub">
+            <button id="submit" type="submit">
+              <h4>SEND DIN STORY 💔</h4>
+            </button>
+          </div>
         </form>
       </section>
 
       <section id="form-summary">
-        <h2>Vi Lytter 💔</h2>
+        <h2>Summary</h2>
         <article>
-          <p class="placeholder">
-            Hos Heartbreak Hotline er vi her for at lytte, støtte og hjælpe dig gennem svære tider. Vi ved, at livet kan være udfordrende, og at det nogle gange er svært at finde nogen at tale med. Derfor har vi skabt en nem og anonym webformular,
-            hvor du kan dele dine tanker og følelser i dit eget tempo. Uanset om du oplever hjertesorg, problemer i relationer eller blot har brug for nogen at tale med, er vi her for at høre dig. Vores webformular er designet til at give dig plads
-            til at udtrykke dig uden forstyrrelser. Du kan skrive alt, hvad der fylder, og vi lover at lytte uden at dømme. Når du udfylder formularen, kan du være sikker på, at dine ord bliver behandlet med respekt og forståelse. Det er første
-            skridt mod at få hjælp – og vi er klar til at være din støtte. Vi ved, at det kan være svært at tage det første skridt og åbne op. Men vi ønsker at skabe et rum, hvor du føler dig tryg ved at dele det, der ligger på dit hjerte. Husk, at
-            vi er her for dig, og du er ikke alene.
-          </p>
+          <h3>Navn</h3>
+          <p class="placeholder">.</p>
         </article>
       </section>
     </main>
@@ -147,6 +146,6 @@
         </ul>
       </nav>
     </footer>
-    <script src="js/burger.js"></script>
+    <script src="js/form.js"></script>
   </body>
 </html>
